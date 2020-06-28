@@ -50,13 +50,14 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='test_dep')
     parser.add_argument('-data', help="학습 데이터 경로",default="./resources/images/test_img/")
     parser.add_argument('-extension', help="확장자",default="jpg")
-    parser.add_argument('-model', help="학습 모델 경로", default="./snapshots/9class/resnet50_csv_25_infer.h5")
+    parser.add_argument('-model', help="학습 모델 경로", default="./snapshots/resnet50_full/resnet50_csv_28_infer.h5")
     parser.add_argument('-show_image', help="예측 여부", action='store_true',default=False)
     args = parser.parse_args()
 
     labels_to_names = {0: '감성돔', 1: '우럭', 2: '참돔', 3: '농어', 4 : "고등어", 5: "돌돔", 6 : "볼락",
                        7 : "숭어", 8 : "벤자리", 9 : "벵에돔",10:"광어",11:"노래미",12:"도다리",13:"삼치",
-                       14:"쏨뱅이",15:"조기"}
+                       14:"쏨뱅이",15:"조기",16:"농어_민물고기",17:"블루길_민물고기",18:"능성어",19:"가물치_민물고기",
+                       20:"동자개_민물고기",21:"붕어_민물",22:"쏘가리_민물고기"}
     show_predict_img = True
 
     fish_detection = FishDetection(labels_to_names=labels_to_names,model_path=args.model

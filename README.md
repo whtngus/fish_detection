@@ -8,7 +8,7 @@ fish_image_detection
 > 따라서 다른 포맷의 데이터를 사용한다면 변형하여 작업 부탁드립니다. <br>
 
 ### 데이터 라벨링 <br>
- 
+
 - 처음 물고기 데이터를 태깅할 때 태깅 속도를 빠르게 하기위해 object detection pretrained model을 사용하여 1차 가공을 사용한 후 디텍션 합니다. <br>
 
 ##### 사용한 코드 <br>

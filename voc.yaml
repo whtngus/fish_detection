@@ -1,0 +1,18 @@
+# PASCAL VOC dataset http://host.robots.ox.ac.uk/pascal/VOC/
+# Download command: bash ./data/get_voc.sh
+# Train command: python train.py --data voc.yaml
+# Default dataset location is next to /yolov5:
+#   /parent_folder
+#     /VOC
+#     /yolov5
+
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ./resources/yolo/images/train
+val: ./resources/yolo/images/eval
+
+# number of classes
+nc: 23
+
+# class names
+names: ["black_porgy","rockfish","tripletail","bass","mackerel","rock_bream","black_rock_fish","gray_mullet","threeline_grunt","girella_punctata","flatfish","spotty_belly_greenling","flounder","spanish_mackerel","scorpion_fish","croaker","bass_freshwater_fish","bluegill_freshwater_fish","convict_grouper","snake_head_freshwater_fish","korean_bullhead_freshwater_fish","carp_freshwater_fish","mandarin_fish_freshwater_fish"]

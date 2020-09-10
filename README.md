@@ -131,5 +131,9 @@ detect.py   --source ./resources/yolo/test_img --weights ./snapshots/yolo/exp5/w
 > yolo_m : https://drive.google.com/file/d/1eShO8DCDJDYGqV9gnWT6a4ZHUEdaYdQT/view
 >
 > yolo_l : *지원 예정*
-
+> 
+> - 사용 환경
+>
+> docker :  whtngus3232/gpu:cuda10.0_encoding
+> 다운로드 후 바로 실행 가능합니다.
  

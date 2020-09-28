@@ -137,3 +137,5 @@ detect.py   --source ./resources/yolo/test_img --weights ./snapshots/yolo/exp5/w
 > docker :  whtngus3232/gpu:cuda10.0_encoding
 > 다운로드 후 바로 실행 가능합니다.
  
+ 
+# 데이터 관련 문의

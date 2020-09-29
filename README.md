@@ -96,7 +96,7 @@ python3 ./src/model/pre_detection/main.py -data "학습 데이터 경로" -model
 
 1. voc.yaml 파일의 train과 val 경로에 이미지 경로를 설정한다
 
-> ![data_example_4](.\picture\data_example_4.JPG)
+> ![data_example_4](./picture/data_example_4.JPG)
 >
 > 단, 여기에서 경로는 이미지 경로여야 하며 경로중 images 를 labels로 바꾼곳에 label 텍스트 파일들이 위치해야 한다.
 >
@@ -139,5 +139,5 @@ detect.py   --source ./resources/yolo/test_img --weights ./snapshots/yolo/exp5/w
  
  
 # 데이터 관련 문의
-## 물고기 개체명 인식 관련 문의는 "산호오션테크"에 문의 부탁드립니다.
+### 물고기 개체명 인식 관련 문의는 "산호오션테크"에 문의 부탁드립니다.
 ##  

@@ -139,3 +139,5 @@ detect.py   --source ./resources/yolo/test_img --weights ./snapshots/yolo/exp5/w
  
  
 # 데이터 관련 문의
+## 물고기 개체명 인식 관련 문의는 "산호오션테크"에 문의 부탁드립니다.
+##  
